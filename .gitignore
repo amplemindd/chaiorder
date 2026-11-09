@@ -1,0 +1,22 @@
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+# Dependencies
+node_modules/
+# Backend backups
+backend-node/backups/
+# Logs
+*.log
+npm-debug.log*
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local uploads are stored in the database (bb_files)
+backend-node/uploads/*
+!backend-node/uploads/.gitkeep
